@@ -1,0 +1,13 @@
+public class NumberSystems2 {
+
+    public static void main(String[] args) {
+
+        int a = 637;
+        System.out.println(6*100 +3*10 +7);
+        System.out.println(Integer.toBinaryString(a));
+
+        String binary = "11100111";
+
+        int i = Integer.parseInt(binary, 2);
+
+        System.out.println(i);
