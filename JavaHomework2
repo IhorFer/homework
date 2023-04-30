@@ -1,0 +1,11 @@
+package homework;
+
+public class HomeWork2 {
+    public static void main(String[] args) {
+        int q = 365;
+        System.out.println(q/100);
+        System.out.println((q%100)/10);
+        System.out.println(q%10);
+
+    }
+}
